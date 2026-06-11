@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Data files
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+
+# Keep data folders
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# Reports figures generated
+reports/figures/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
